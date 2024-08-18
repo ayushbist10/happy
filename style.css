@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+body{
+    background-image: url(SS.png);
+     background-repeat: no-repeat ;
+     background-position: center ;
+     background-attachment: fixed ;
+     background-size: cover;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right:60px ;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+background-color:#fff;
+	color: #000;
+
+}
